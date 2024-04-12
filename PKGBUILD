@@ -1,11 +1,11 @@
 # Maintainer: Your Name <your@email>
 
-pkgname=pkgbase
+pkgname=yuma123
 pkgver=1
 pkgrel=1
-#pkgdesc="Package description"
-#arch=('x86_64')
-#url="https://github.com/[your repo]"
+pkgdesc="Package description for yuma123"
+arch=('x86_64')
+url="https://github.com/vlvassilev/yuma123"
 #license=('GPL3')
 
 #depends=('perl-image-exiftool' 'ffmpeg')
