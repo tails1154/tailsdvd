@@ -14,7 +14,7 @@ and
 2. `cdrecord`
 If you want to run it again without using `installer.sh` (to install the deps)
 1. `cd src`
-2. `python3 tailsdvd.py`
+2. `python3 dvdburn.py`
 ## Windows Support
 I have no plans for windows support in the near future. If you want to add it, feel free to open a PR!
 ## Usage
