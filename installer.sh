@@ -13,7 +13,7 @@ echo "Installing Deps..."
 pip install tk
 echo "Select your linux distro"
 echo "1) Arch based distro (tested)"
-echo "2) Debian based distro (untested)"
+echo "2) Debian based distro (tested in a way)"
 read -p "?" distro
 if [ $distro = '1' ]; then
 	echo "Installing arch deps"
@@ -21,7 +21,7 @@ if [ $distro = '1' ]; then
 	echo "Installed arch deps!"
 elif [ $distro = '2' ]; then
 	echo "Installing debian deps"
-	sudo apt install -y cdrecord tk
+	sudo apt install -y cdrecord tk python3-tk
 else
 	echo "Not a valid distro! exiting!"
 	echo "Reverting changes"
