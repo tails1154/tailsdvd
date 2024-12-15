@@ -21,7 +21,7 @@ if [ $distro = '1' ]; then
 	echo "Installed arch deps!"
 elif [ $distro = '2' ]; then
 	echo "Installing debian deps"
-	sudo apt install -y cdrtools tk
+	sudo apt install -y cdrecord tk
 else
 	echo "Not a valid distro! exiting!"
 	echo "Reverting changes"
