@@ -17,3 +17,5 @@ If you want to run it again without using `installer.sh` (to install the deps)
 2. `python3 tailsdvd.py`
 ## Windows Support
 I have no plans for windows support in the near future. If you want to add it, feel free to open a PR!
+## Usage
+do note that usually, the disc drive is at `/dev/cdrom`
