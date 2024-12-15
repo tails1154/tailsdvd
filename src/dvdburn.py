@@ -107,5 +107,7 @@ device_var = ""
 status = ""
 progress_bar = ""
 ttk.Label(frm, text="Welcome to the dvdburn wizard!").grid(column=0, row=0)
-ttk.Button(frm, text="Next", command=stage1).grid(column=0, row=1)
+ttk.Label(frm, text="Created by: tails1154").grid(column=0, row=1)
+ttk.Label(frm, text="This software is licenced under the GNU GENERAL PUBLIC LICENSE v3.0")
+ttk.Button(frm, text="Next", command=stage1).grid(column=0, row=3)
 root.mainloop()

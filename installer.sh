@@ -10,18 +10,18 @@ echo "Entering venv..."
 echo "Upgrading pip..."
 pip install --upgrade pip
 echo "Installing Deps..."
-pip install tkinter
+pip install tk
 echo "Select your linux distro"
 echo "1) Arch based distro (tested)"
 echo "2) Debian based distro (untested)"
 read -p "?" distro
 if [ $distro = '1' ]; then
 	echo "Installing arch deps"
-	sudo pacman -Syu --noconfirm cdrtools
+	sudo pacman -Syu --noconfirm cdrtools tk
 	echo "Installed arch deps!"
 elif [ $distro = '2' ]; then
 	echo "Installing debian deps"
-	sudo apt install -y cdrtools
+	sudo apt install -y cdrtools tk
 else
 	echo "Not a valid distro! exiting!"
 	echo "Reverting changes"
