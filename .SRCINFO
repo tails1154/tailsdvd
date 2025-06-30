@@ -9,5 +9,3 @@ pkgbase = tailsdvd-git
 	depends = tk
 	depends = python3
 	source = tailsdvd-git::git+https://github.com/tails1154/tailsdvd
-
-pkgname = tailsdvd-git
