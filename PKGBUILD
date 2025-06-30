@@ -34,5 +34,6 @@ build() {
 package() {
 	echo "$(pwd)"
 	cd $pkgname/src
-	cp $pkgname "$pkgdir/"
+	cp "../LICENSE" "${pkgdir}/usr/share/licenses/${pkgname}/LICENSE" # Let's gooo GPL-3.0 license
+	cp $pkgname "$pkgdir/usr/local/bin/tailsdvd" # The actual python script
 }
